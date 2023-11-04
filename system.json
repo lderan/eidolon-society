@@ -26,9 +26,9 @@
   ],
   "gridDistance": 1,
   "gridUnits": "m",
-  "url": "https://github.com/lderan/the-eidolon-society/",
-  "manifest": "https://raw.githubusercontent.com/lderan/the-eidolon-society/main/system.json",
-  "download": "https://github.com/lderan/the-eidolon-society/archive/refs/tags/release.zip",
+  "url": "https://github.com/lderan/eidolon-society/",
+  "manifest": "https://raw.githubusercontent.com/lderan/eidolon-society/main/system.json",
+  "download": "https://github.com/lderan/eidolon-society/archive/refs/tags/release.zip",
   "id": "the-eidolon-society",
   "compatibility": {
     "minimum": "11",
