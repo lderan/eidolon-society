@@ -1,0 +1,47 @@
+{
+    "Actor": {
+      "types": ["character"],
+      "templates": {
+        "background": {
+          "notes": ""
+        },
+        "resources": {
+          "body": {
+            "min": 1,
+            "value": 1,
+            "max": 10
+          },
+          "mind": {
+            "min": 1,
+            "value": 1,
+            "max": 10
+          },
+          "spirit": {
+            "min": 1,
+            "value": 1,
+            "max": 10
+          },
+          "resources": {
+            "min": 1,
+            "value": 1,
+            "max": 10
+          },
+          "refresh": {
+            "min": 0,
+            "value": 0,
+            "max": 13
+          }
+        }
+      },
+      "character": {
+        "templates": ["resources"]
+      }
+    },
+    "Item": {
+      "types": ["equipment"],
+      "templates": {
+      },
+      "equipment": {
+      }
+    }
+}

@@ -1,0 +1,29 @@
+<form class="{{cssClass}} p-3 wholesheet" autocomplete="off">
+    <div class="flex">
+        <div class="flex-1">
+            <h1 class="uppercase text-5xl text-center">Goodbye<br/><small class="block text-2xl pb-3">my love</small></h1>
+        </div>
+    </div>
+    <div class="grid gap-4 grid-cols-1 gap-6 md:grid-cols-1 lg:grid-cols-2">
+        <div>
+            <label class="uppercase">Character name</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="name" value="{{actor.name}}"/>
+            <label class="pt-3 block uppercase">Body</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="data.body" value="{{data.system.body}}"/>
+            <label class="pt-3 block uppercase">Mind</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="data.mind" value="{{data.system.mind}}"/>
+            <label class="pt-3 block uppercase">Spirit</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="data.spirit" value="{{data.system.mind}}"/>
+            <label class="pt-3 block uppercase">Resources</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="data.resources" value="{{data.system.resources}}"/>
+            <label class="pt-3 block uppercase">Refresh count</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline drop-shadow-2xl" name="data.refresh" value="{{data.system.refresh}}"/>
+        </div>
+    </div>
+    <div class="flex drop-shadow-2xl">
+        <div class="flex-1">
+            <label class="uppercase">Items & Notes</label>
+            <textarea class="shadow  appearance-none border border-transparent rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="data.notes">{{data.system.notes}}</textarea>
+        </div>
+    </div>
+</form>
